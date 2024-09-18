@@ -18,32 +18,11 @@ Introducción a *coreutils*, *findutils* y *diffutils*.
 
 Conjunto de palabras pertenecientes al lenguaje de programación de Bash que permiten operar lógica en la shell.
 
-* Ejemplo de un ciclo *for* que imprime números del 1 al 10.
-
-```
-$ for i in {1..10}
-do
-  echo $i
-done
-```
-
----
-
-# Bash Keywords
-
-* Ejemplo de condicionales *if*, *elif*, *else*.
-
-```
-$ if [[ 2 -eq 3 ]]
-then
-  echo "Falso"
-elif [[ 3 -ne ]]
-then
-  echo "Igual de falso"
-else
-  echo "Todo lo anterior es falso"
-fi
-```
+* *for*
+* *while*
+* *if*
+* *elif*
+* *else*
 
 ---
 

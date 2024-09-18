@@ -14,20 +14,6 @@ Reconocer elementos en una *shell*.
 
 ---
 
-# User Space vs Kernel Space
-
-* El Sistema Operativo administra elementos del hardware tales como CPU y memoria RAM para proveer servicios en la máquina.
-
-  * A esto se le conoce como *Kernel Space*.
-
-* Los usuarios del Sistema Operativo hacen uso de estos servicios para llevar a cabo tareas en la máquina.
-
-  * A esto se le conoce como *User Space*.
-
-Para la máquina, estas tareas son instrucciones leídas por el Sistema Operativo mediante el **Intérprete de Comandos**.
-
----
-
 # Bash &ndash; Bourne Again Shell
 
 Un intérprete de comandos es el programa que se ejecuta cada vez que se comienza una sesión de tty o emulador de terminal.
@@ -81,7 +67,7 @@ user@machine directory $
 
 * `user` - usuario de la sesión actual.
 * `machine` - máquina que ejecuta el sistema operativo.
-* `directory` - **Working Directory** de la shell.
+* `directory` - *working directory* de la shell.
 * `$` - *user* no puede editar archivos fuera de $HOME.
 
 ---
