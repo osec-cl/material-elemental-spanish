@@ -16,33 +16,6 @@ Introducción al builtin *cd*.
 
 ---
 
-# Filesystem Hierarchy Standard
-
-* Árbol de directorios presente en todos los sistemas Linux.
-
-* El árbol comienza en `/`, el directorio raíz.
-
-* Rutas de directorios que comienzan con `/` son denominadas **rutas absolutas** y son leídas desde la raíz del árbol.
-
-  * Las rutas relativas utilizan como raíz el *Working Directory*.
-
-
----
-
-# Current Working Directory
-
-* Puede verse con el coreutils *pwd*.
-
-* Por defecto es `/home/user` para el *user* de la sesión.
-
-* El directorio `user` se encuentra contenido en `home`.
-
-* El directorio `home` se encuentra contenido en `/`.
-
-* El directorio `/` es la raíz del árbol.
-
----
-
 # $HOME dentro del árbol
 
 Para ver los subdirectorios de la raíz `/`.

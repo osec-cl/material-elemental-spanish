@@ -57,35 +57,3 @@ $ ls -a
 * Puede leerse como *List all*
 
 * No ignora los archivos que empiezan con un punto.
-
----
-
-# Directorios reservados
-
-Cada directorio reserva en su interior dos nombres:
-
-* `.` (punto) - referencia al *Working Directory*.
-
-* `..` (doble punto) - referencia al directorio superior.
-
----
-
-# Archivos punto (dotfiles)
-
-* Archivos o directorios que empiezan con un punto.
-
-* Se ignoran en la salida de `ls`.
-
-* Utilizados para guardar configuración de programas.
-
----
-
-# XDG Base Directory Specification
-
-Directorios reservados para configuraciones de programas:
-
-* `.local` - archivos de usuario creados por programas.
-
-* `.config` - archivos de configuración de programas.
-
-* `.cache` - archivos caché, pueden borrarse sin perder información.
