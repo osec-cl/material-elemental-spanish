@@ -76,7 +76,7 @@ Una ruta relativa no comienza con `/` y utiliza como raíz al directorio de trab
 Algunos ejemplos:
 
 * Si el directorio de trabajo es **/usr/local**
-  * ... ruta relativa **mydir**
+  * ... la ruta relativa **mydir**
   * ... corresponde a la ruta absoluta **/usr/local/mydir**
 
 ---
