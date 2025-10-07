@@ -8,23 +8,6 @@ Los apuntes en Jupyter Notebook son un WIP.
 
 Para seguir estas clases es mandatorio contar con un sistema Linux.
 
-A continuación se listan diferentes formas de acceder a uno:
-
-* [Virtual Box](#virtual-box)
-* [WSL](#wsl)
-* [SSH](#ssh)
-
-### Virtual Box
-
-OSEC mantiene una imagen pre-configurada de Debian 12 bajo [este enlace](https://drive.google.com/drive/u/0/folders/10iD8wigZoSM0zLrD1rCKyt2CtvD6BEr7).
-
-Las credenciales de acceso son:
-
-* Usuario: `osec`
-* Contraseña: `countessoflovelace`
-
-Para tener acceso root ejecutar `su` y utilizar la misma contraseña anterior.
-
 ### WSL
 
 Abrir una ventana de PowerShell o Windows Terminal y ejecutar:
